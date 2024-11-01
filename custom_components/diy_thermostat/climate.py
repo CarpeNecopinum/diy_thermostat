@@ -68,7 +68,7 @@ class DIYThermostat(ClimateEntity):
         self.temperature_unit = "°C"
         self.hvac_mode = HVACMode.OFF
         self.current_temperature = 20.0
-        self.target_temperature = 20.0
+        self.target_temperature = 16.0
         self.max_temp = 35.0
         self.min_temp = 5.0
         self.hvac_action = HVACAction.IDLE
